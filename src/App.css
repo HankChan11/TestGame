@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('/Users/hankchan/Desktop/鹿芝谷.png'); /* 背景圖片的路徑 */
+  background-size: cover; /* 讓圖片覆蓋整個視窗 */
+  background-position: center; /* 圖片置中 */
+  background-repeat: no-repeat; /* 防止圖片重複 */
+}
+
+/* 設定遊戲棋盤 */
+.board {
+  display: grid;
+  grid-template-columns: repeat(20, 20px); /* 棋盤列數與格子寬度 */
+  grid-template-rows: repeat(20, 20px);    /* 棋盤行數與格子高度 */
+  position: relative; /* 保證其他元素（如蛇、食物、分數）可以正確放置在棋盤上 */
+  border: 2px solid black; /* 棋盤的邊框 */
+  margin: auto; /* 棋盤居中 */
+  background-color: #a0a0a0; /* 棋盤背景顏色 */
+}
+
+.score {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.cell {
+  width: 20px;
+  height: 20px;
+}
+
+.light-green {
+  background-color: #98fb98;
+}
+
+.dark-green {
+  background-color: #8fbc8f;
+}
+
+.game-over {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  color: red;
+  font-weight: bold;
+}
+
+.title {
+  color: white; /* 設定文字顏色為白色 */
+  text-align: center; /* 讓標題置中 */
+  font-size: 2rem; /* 可調整字體大小 */
+  font-weight: bold; /* 加粗字體 */
+  margin-top: 20px;
+}

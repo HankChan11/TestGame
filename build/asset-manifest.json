@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/TestGame/static/css/main.75fdeaca.css",
+    "main.js": "/TestGame/static/js/main.e7dd640d.js",
+    "static/media/鹿芝谷.png": "/TestGame/static/media/鹿芝谷.0e0566b7d3f54b37cc4a.png",
+    "index.html": "/TestGame/index.html",
+    "main.75fdeaca.css.map": "/TestGame/static/css/main.75fdeaca.css.map",
+    "main.e7dd640d.js.map": "/TestGame/static/js/main.e7dd640d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.75fdeaca.css",
+    "static/js/main.e7dd640d.js"
+  ]
+}
