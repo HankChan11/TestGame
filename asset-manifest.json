@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.js": "/TestGame/static/js/main.246d9839.js",
     "main.css": "/TestGame/static/css/main.196c247b.css",
+    "main.js": "/TestGame/static/js/main.fb61c314.js",
     "static/media/鹿芝谷.png": "/TestGame/static/media/鹿芝谷.0e0566b7d3f54b37cc4a.png",
     "index.html": "/TestGame/index.html",
-    "main.246d9839.js.map": "/TestGame/static/js/main.246d9839.js.map",
-    "main.196c247b.css.map": "/TestGame/static/css/main.196c247b.css.map"
+    "main.196c247b.css.map": "/TestGame/static/css/main.196c247b.css.map",
+    "main.fb61c314.js.map": "/TestGame/static/js/main.fb61c314.js.map"
   },
   "entrypoints": [
-    "static/js/main.246d9839.js",
-    "static/css/main.196c247b.css"
+    "static/css/main.196c247b.css",
+    "static/js/main.fb61c314.js"
   ]
 }
